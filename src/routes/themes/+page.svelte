@@ -79,7 +79,7 @@
 	>
 		{#if filteredThemes.length < 1}
 			<li
-				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
+				class="col-span-full mx-auto flex h-full w-full max-w-lg flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top py-8 shadow transition-all sm:py-12 dark:from-overlay dark:to-base dark:shadow-none"
 			>
 				<p class="font-display">
 					{$_('page.themes.search_no_results', {
@@ -105,7 +105,7 @@
 						rel="external"
 						target="_blank"
 						href={theme.repo}
-						class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top px-1 py-8 shadow transition-[background-position,box-shadow] hover:bg-right-bottom focus:outline-none focus:ring dark:from-overlay dark:to-base dark:shadow-none sm:py-12"
+						class="flex h-full flex-col items-center rounded-2xl bg-gradient-to-br from-surface via-base to-surface bg-[length:200%_200%] bg-left-top px-1 py-8 shadow transition-[background-position,box-shadow] hover:bg-right-bottom focus:outline-none focus:ring sm:py-12 dark:from-overlay dark:to-base dark:shadow-none"
 					>
 						<p
 							class="text-center font-display font-semibold tracking-wide sm:text-lg"
